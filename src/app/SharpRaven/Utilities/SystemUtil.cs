@@ -126,6 +126,12 @@ namespace SharpRaven.Utilities
                 WriteError(line);
             }
         }
+
+        /// <summary>
+        /// Helper method for stream usage.
+        /// </summary>
+        /// <param name="input"></param>
+        /// <param name="output"></param>
         public static void CopyTo(this Stream input, Stream output)
         {
             byte[] buffer = new byte[16 * 1024]; // Fairly arbitrary size

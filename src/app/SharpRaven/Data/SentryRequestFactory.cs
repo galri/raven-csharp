@@ -313,7 +313,7 @@ namespace SharpRaven.Data
 
                 var httpContextType = systemWeb.GetExportedTypes()
                     .FirstOrDefault(type => type.Name == "HttpContext");
-
+                
                 if (httpContextType == null)
                     return;
 

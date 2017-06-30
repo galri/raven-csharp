@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{676F2B5C-4064-4F78-9828-974E86024A8D}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug 4.5" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.app.SharpRaven.Droid PreferredExecutionTarget="Android.7.0-arm-64" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="app\SharpRaven\Configuration.cs">
+    <Files>
+      <File FileName="app\SharpRaven\Configuration.cs" Line="38" Column="34" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SharpRaven" expanded="True">
+            <Node name="app" expanded="True">
+              <Node name="SharpRaven" expanded="True" selected="True">
+                <Node name="References" expanded="True" />
+              </Node>
+              <Node name="SharpRaven.Droid" expanded="True">
+                <Node name="References" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="tests" expanded="True">
+              <Node name="SharpRaven.Droid.UnitTest" expanded="True">
+                <Node name="References" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+</Properties>

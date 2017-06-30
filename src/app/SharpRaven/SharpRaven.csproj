@@ -89,6 +89,9 @@
     <Prefer32Bit>false</Prefer32Bit>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Any CPU|AnyCPU'">
+    <OutputPath>bin\Any CPU\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" Condition="$(Configuration) == 'Release 3.5' Or $(Configuration) == 'Debug 3.5'">
@@ -104,9 +107,9 @@
       <HintPath>..\..\packages\Newtonsoft.Json.6.0.8\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Configuration" />
     <Reference Include="System.Web" Condition="$(Configuration) == 'Release 3.5' Or $(Configuration) == 'Debug 3.5'" />
     <Reference Include="System.Net.Http" Condition="$(Configuration) == 'Release 4.5' Or $(Configuration) == 'Debug 4.5'" />
+    <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\..\CommonAssemblyInfo.cs">
